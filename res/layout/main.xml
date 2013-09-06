@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutFragment"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/map"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    class="com.google.android.gms.maps.MapFragment" />
+
+    <TextView
+        android:id="@+id/textLatLng"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#D12188"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textLTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="#D12188"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+<!-- <fragment xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     	  xmlns:map="http://schemas.android.com/apk/res-auto" -->
+<!--           android:id="@+id/map" -->
+<!--           android:layout_width="match_parent" -->
+<!--           android:layout_height="match_parent" -->
+<!--           android:name="com.google.android.gms.maps.MapFragment" -->
+<!--           map:cameraTargetLat="34.39916" -->
+<!--           map:cameraTargetLng="-118.91815" -->
+<!--           map:cameraZoom="8"/> -->

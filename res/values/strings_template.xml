@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapIt</string>
+    <string name="action_settings">Settings</string>
+<!-- 	<string name="geo_username"></string> -->
+</resources>
+<!-- Rename to strings.xml
+	 Must acquire a username, then enable the service on your account:
+	 http://www.geonames.org/export/ -->
